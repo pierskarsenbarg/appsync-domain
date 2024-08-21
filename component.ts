@@ -56,9 +56,9 @@ export class AppSyncResource extends pulumi.ComponentResource {
     //     args.appSync.opts,
     //   );
     //   if (!args.stopDomainNameCreation) {
-    const usEast1Provider = new aws.Provider("usEast1", {
-      region: "us-east-1",
-    });
+    // const usEast1Provider = new aws.Provider("usEast1", {
+    //   region: "us-east-1",
+    // });
 
     const east1 = new aws.Provider("east1", {
       region: "us-east-1",
